@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    overflow-x: hidden;
+}
+
+html {
+    background-color: black;
+    /* background-image: url(".././assets/bg-code.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: strech;*/
+}
+
+body {
+    padding: 0 5px;
+    max-width: 600px;
+    max-height: 850px;
+    display: flex;
+   
+}
+
+header {
+    position: fixed;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+header>p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section {
+    margin: 70px 0px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    overflow-y: scroll;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0px;
+    background-color: black;
+}
+
+footer>p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    height: 85px;
+    width: 95%;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    margin: 10px 0px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+}
+
+.list-item-title {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.list-item-desc {
+    font-size: 18px;
+}
+
+.flags {
+    width: 50px;
+    border-radius: 30px;
+    border: 3px solid grey;
+}
+
+.text-title {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 15px;
+}
+
+.placeholder {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+font-family: 'Gugi', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'Press Start 2P', cursive;
+
+
+*/
